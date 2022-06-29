@@ -118,7 +118,7 @@ class MainFrame(wx.Frame):  # La classe MainFrame eredita i metodi e gli attribu
             sizer.Add(i, 10, wx.ALL, 10)
             # Settiamo il sizer sul pannello e adattiamo il layout
         panel1.SetSizer(sizer)
-        panel.Layout()
+        panel1.Layout()
 
     def OnGenerate(self, event):   # Callback associato al widjet button1 
         # Setta l'etichetta del widjet con un numero casuale intero compreso nell'intervallo impostato
